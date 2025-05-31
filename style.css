@@ -1,0 +1,110 @@
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #e7f0ff;
+      margin: 0;
+      padding: 30px;
+      color: #2c3e50;
+      min-height: 100vh;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-weight: 700;
+      color: #1a237e;
+      text-shadow: 1px 1px 4px rgba(26, 35, 126, 0.3);
+    }
+
+    section {
+      background: #fff;
+      border-radius: 12px;
+      padding: 25px 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 6px 15px rgba(33, 150, 243, 0.15);
+      transition: box-shadow 0.3s ease;
+    }
+
+    section:hover {
+      box-shadow: 0 10px 25px rgba(33, 150, 243, 0.3);
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-weight: 600;
+      color: #1565c0;
+      border-bottom: 2px solid #90caf9;
+      padding-bottom: 6px;
+    }
+
+    /* Layout inputs e botão lado a lado */
+    .input-group {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 15px;
+    }
+
+    input {
+      flex: 1;
+      padding: 12px 15px;
+      border-radius: 8px;
+      border: 1.8px solid #90caf9;
+      font-size: 1rem;
+      transition: border-color 0.3s ease;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: #1e88e5;
+      box-shadow: 0 0 8px #90caf9aa;
+    }
+
+    button {
+      padding: 12px 25px;
+      border-radius: 8px;
+      border: none;
+      background: #1e88e5;
+      color: white;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      flex-shrink: 0;
+      box-shadow: 0 4px 8px rgba(30, 136, 229, 0.3);
+    }
+
+    button:hover {
+      background: #1565c0;
+      box-shadow: 0 6px 12px rgba(21, 101, 192, 0.5);
+    }
+
+    pre {
+      background: #f0f4ff;
+      padding: 15px 20px;
+      border-radius: 10px;
+      overflow-y: auto;
+      font-size: 0.9rem;
+      color: #263238;
+      box-shadow: inset 0 0 5px #90caf9aa;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+
+    /* Para inputs únicos com botão na mesma linha */
+    .input-group.single {
+      max-width: 400px;
+    }
+
+    /* Responsividade simples */
+    @media (max-width: 600px) {
+      .input-group {
+        flex-direction: column;
+      }
+      button {
+        width: 100%;
+      }
+    }
