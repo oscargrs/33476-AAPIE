@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #e6f5ea; /* chá verde claro */
+  margin: 0;
+  padding: 30px;
+  color: #3b5f3c; /* verde folha seca */
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: #4c9c5d; /* verde musgo vivo */
+  text-shadow: 1px 1px 4px #a4d4a6; /* verde floresta claro */
+}
+
+section {
+  background: #f7fef9; /* branco esverdeado */
+  border-radius: 12px;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 15px #b8eac8; /* verde menta leve */
+  transition: box-shadow 0.3s ease;
+}
+
+section:hover {
+  box-shadow: 0 10px 25px #b8eac8; /* mesma sombra com mais intensidade */
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #4c9c5d; /* verde musgo vivo */
+  border-bottom: 2px solid #3b5f3c; /* verde folha seca */
+  padding-bottom: 6px;
+}
+
+.input-group {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+input {
+  flex: 1;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1.8px solid #aee8c3; /* verde-claro pastel */
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #7fd9a8; /* verde limão suave */
+  box-shadow: 0 0 8px #aee8c388;
+}
+
+button {
+  padding: 12px 25px;
+  border-radius: 8px;
+  border: none;
+  background: #1a9b41; /* verde erva-doce */
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex-shrink: 0;
+  box-shadow: 0 4px 8px rgba(127, 217, 168, 0.4);
+}
+
+button:hover {
+  background: #3fa066; /* verde mais intenso */
+  box-shadow: 0 6px 12px rgba(63, 160, 102, 0.5);
+}
+
+pre {
+  background: #f1fdf3; /* verde névoa leve */
+  padding: 15px 20px;
+  border-radius: 10px;
+  overflow-y: auto;
+  font-size: 0.9rem;
+  color: #425b45; /* verde oliva suave */
+  box-shadow: inset 0 0 5px #aee8c388;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.input-group.single {
+  max-width: 400px;
+}
+
+@media (max-width: 600px) {
+  .input-group {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+}
