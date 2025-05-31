@@ -12,7 +12,7 @@ HTML + CSS → para estrutura e estilo da página.
 
 JavaScript (Fetch API) → para fazer requisições HTTP à API.
 
-API RESTful do estacionamento → em http://cnms-parking-api.net.uztec.com.br/api/v1.
+API RESTful do estacionamento → em [http://cnms-parking-api.net.uztec.com.br/api/v1](http://cnms-parking-api.net.uztec.com.br/docs/).
 
 --------------------------------------------------------------------------------------------------------
 
