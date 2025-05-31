@@ -63,4 +63,4 @@ Mostra um resumo do movimento do estacionamento naquele dia: entradas, saídas, 
 
 --------------------------------------------------------------------------------------------------------
 
-## Projeto desenvolvido pelo aluno: Oscar Gomes Ribeiro Silva durante o 3º Ano do curso em Técnico em Informática
+### Projeto desenvolvido pelo aluno: Oscar Gomes Ribeiro Silva durante o 3º Ano do curso em Técnico em Informática
